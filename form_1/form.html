@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обработка формы</title>
+</head>
+<body>
+    <h1>Регистрация</h1>
+    <form action="/form_1/process.php" method="post">
+        <label for="name">Имя пользователя:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <label for="password">Пароль:</label>
+        <input type="password" id="passw" name="passw" required>
+        <br><br>
+        <label for="password">Подтвердите пароль:</label>
+        <input type="password" id="passw_sub" name="passw_sub" required>
+        <br><br>
+        <input type="submit" value="Зарегестрироваться">
+    </form>
+</body>
+</html>
